@@ -18,7 +18,7 @@ longitudeBoundry = (-76.622925 < coordinates['Longitude']) & (coordinates['Longi
 coordinates.drop(coordinates[latitudeThresh & longitudeThresh | ~latitudeBoundry | ~longitudeBoundry].index, inplace = True)
 
 #delete any points where there is only one for a particular day (need atleast 2 to form a route)
-dupes = coordinates[coordinates.duplicated('Date', keep = False)]
+coordinates = coordinates[coordinates.duplicated('Date', keep = False)]
 
 #export to csv
-dupes.to_csv (r'export_dataframe_250m.csv', index = False, header = True)
+coordinates.to_csv (r'export_dataframe_250m.csv', index = False, header = True)
