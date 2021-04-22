@@ -2,8 +2,6 @@ import pandas as pd
 
 #Read Google data CSV into a pandas object
 coordinates = pd.read_csv('locations.csv', parse_dates=['Time'])
-coordinates['Date'] = coordinates['Time'].dt.date
-coordinates['Time'] = coordinates['Time'].dt.time
 coordinates = coordinates.reindex(columns = ['Latitude', 'Longitude', 'Date', 'Time'])
 
 #Conditions for removing points
