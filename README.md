@@ -1,6 +1,8 @@
 # Google Maps Visualization
 
-This summer while travelling I discovered the Google Timeline, a history of your location recorded by your phone's GPS. While it would show you individual days, your routes, and points of interest on Google Maps, I wanted to see everywhere I've been on the face of this earth up to this point. Using Google's takeout feature, you can actually export your location history which is what were going to be using for our data visualization. This project introduced my to GIS software, I tried using ArcGIS as this is the most commonly used software used for spatial analysis. While trying to learn ArcGIS as I go, I ran into some issues which required me to switch to something I'm more comfortable with for certain tasks, which is Python scripting. This is how I did it
+![](https://i.imgur.com/DweeyAZ.png)
+
+This summer I discovered the Google Timeline, a history of your location recorded by your phone's GPS. While it would show you individual days, your routes, and points of interest on Google Maps, I wanted to see everywhere I've been on the face of this earth up to this point. Using Google's takeout feature, you can actually export your location history which is what were going to be using for our data visualization. This project introduced my to GIS software, I tried using ArcGIS as this is the most commonly used software used for spatial analysis. While trying to learn ArcGIS as I go, I ran into some issues which required me to switch to something I'm more comfortable with for certain tasks, which is Python scripting. This is how I did it
 
 
 
